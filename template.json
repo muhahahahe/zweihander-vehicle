@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["npc", "creature", "character"],
+    "types": ["npc", "creature", "character", "vehicle"],
     "templates": {
       "stats": {
         "stats": {
@@ -166,6 +166,15 @@
       }
     },
     "creature": {
+      "templates": ["stats", "flavor", "currency", "non-player", "languages"],
+      "details": {
+        "classification": "",
+        "size": 0,
+        "role": "",
+        "influences": ""
+      }
+    },
+    "vehicle": {
       "templates": ["stats", "flavor", "currency", "non-player", "languages"],
       "details": {
         "classification": "",
