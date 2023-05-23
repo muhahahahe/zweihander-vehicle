@@ -9,6 +9,7 @@ import ZweihanderActor from './actor/actor';
 import ZweihanderCharacterSheet from './actor/sheet/character-sheet';
 import ZweihanderNpcSheet from './actor/sheet/npc-sheet';
 import ZweihanderCreatureSheet from './actor/sheet/creature-sheet';
+import ZweihanderVehicleSheet from './actor/sheet/vehicle-sheet';
 import ZweihanderItem from './item/item';
 import ZweihanderItemSheet from './item/sheet/item-sheet';
 import FortuneTracker from './apps/fortune-tracker';
@@ -178,6 +179,10 @@ Hooks.once('init', async function () {
   });
   Actors.registerSheet('zweihander', ZweihanderCreatureSheet, {
     types: ['creature'],
+    makeDefault: true,
+  });
+  Actors.registerSheet('zweihander', ZweihanderVehicleSheet, {
+    types: ['vehicle'],
     makeDefault: true,
   });
 

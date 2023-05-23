@@ -42,6 +42,7 @@ export default class ZweihanderBaseActorSheet extends ActorSheet {
       isCharacter: this.actor.type === 'character',
       isNPC: this.actor.type === 'npc',
       isCreature: this.actor.type === 'creature',
+      isVehicle: this.actor.type === 'vehicle',
       config: CONFIG.ZWEI,
       rollData: this.actor.getRollData.bind(this.actor),
       effects: [],

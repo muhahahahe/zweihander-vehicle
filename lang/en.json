@@ -2,7 +2,8 @@
     "ACTOR": {
         "TypeCharacter": "Player Character",
         "TypeNpc": "Non-Player Character",
-        "TypeCreature": "Creature"
+        "TypeCreature": "Creature",
+        "TypeVehicle": "Vehicle"
     },
     "ITEM": {
         "TypeAncestry": "Ancestry",
@@ -64,6 +65,7 @@
             "header": {
                 "charactername": "Character Name",
                 "npcname": "NPC/creature Name",
+                "vehiclename": "Vehicle Name",
                 "rewardpoints": "Reward Points",
                 "fate": "Fate",
                 "reputationabbr": "Rep.",
@@ -419,7 +421,7 @@
             "injuryprompt": "Automatic Injury Prompt",
             "injuryprompthint": "Automatically prompt user to roll for Injury when falling on the Damage Condition Track.",
             "compactmode": "Open in Compact Mode",
-            "compactmodehint": "Creature & NPC Sheets will be opened in Compact Mode by default",
+            "compactmodehint": "Creature, Vehicle & NPC Sheets will be opened in Compact Mode by default",
             "skilllist": "Skill List",
             "skilllisthint": "ID of the compendium pack to use for the list of available skills for new actors.",
             "fortuneexplodes": "Unlimited Fortune Explodes",

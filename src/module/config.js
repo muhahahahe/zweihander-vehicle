@@ -114,6 +114,7 @@ ZWEI.defaultActorIcons = {
   _default: `${d}/cowled.svg`,
   character: `${d}/character.svg`,
   creature: `${d}/daemon-skull.svg`,
+  vehicle: `${d}/cowled.svg`,
   npc: `${d}/cowled.svg`,
 };
 
@@ -145,6 +146,9 @@ ZWEI.packSets = {
     character: {
       trait: 'zweihander.zh-ancestral-traits',
     },
+    vehicle: {
+      trait: 'zweihander.zh-creature-traits',
+    },
   },
   fof: {
     base: {
@@ -162,6 +166,9 @@ ZWEI.packSets = {
       trait: 'zweihander.zh-creature-traits',
     },
     npc: {
+      trait: 'zweihander.zh-creature-traits',
+    },
+    vehicle: {
       trait: 'zweihander.zh-creature-traits',
     },
   },

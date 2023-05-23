@@ -83,6 +83,9 @@ export async function rollTest(
   if (weapon && !isReroll && actor.type === 'creature') {
     testConfiguration.additionalFuryDice = actor.system.details.size - 1;
   }
+  if (weapon && !isReroll && actor.type === 'vehicle') {
+    testConfiguration.additionalFuryDice = actor.system.details.size - 1;
+  }
   if (isReroll && actor.type === 'character') {
     testConfiguration.useFortune = 'fortune';
   } else if (isReroll && actor.type !== 'character') {

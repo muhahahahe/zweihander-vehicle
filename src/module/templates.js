@@ -23,6 +23,8 @@ const templatesToLoad = [
   $$('combat/combat-tracker.hbs'),
 
   $$('creature/main.hbs'),
+  
+  $$('vehicle/main.hbs'),
 
   $$('item/ancestry.hbs'),
   $$('item/armor.hbs'),
